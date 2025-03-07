@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Maria, Maxwell's human",
+    "text": "Maxwell rarely trusts people, but Jack found a way to his heart. He really is a dog whisperer.",
+    "img": "src/assets/testimonials/maxwell.png"
+  },
+  {
+    "name": "Luna",
+    "img": "src/assets/testimonials/luna.png"
+  },
+  {
+    "name": "Wally",
+    "img": "src/assets/testimonials/wally.png"
+  },
+  {
+    "name": "Otis",
+    "img": "src/assets/testimonials/otis.png"
+  }
+]
+  

@@ -1,0 +1,38 @@
+#about {
+    scroll-margin-top: var(--header-height, 5rem);
+}
+
+.about-section {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem 1.5rem;
+}
+
+.about-container {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.about-content {
+    display: flex;
+    gap: 2rem;
+}
+
+.about-text {
+    flex: 1;
+    text-align: justify;
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column; /* На мобильных устройствах текст идёт друг за другом */
+    }
+}
