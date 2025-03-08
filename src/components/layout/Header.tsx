@@ -63,11 +63,6 @@ const Header: React.FC = () => {
 
 {isMobile && (
             <>
-              {/* <Button
-                aria-controls={open ? "mobile-menu" : undefined}
-                aria-haspopup="true"
-                onClick={handleMenuClick}
-              > */}
                 <Button
                     id="demo-positioned-button"
                     aria-controls={open ? 'demo-positioned-menu' : undefined}
@@ -121,7 +116,7 @@ const Header: React.FC = () => {
               <img src={facebookLogo} alt="Facebook" />
             </a>
             <a
-              href="https://wa.me/07980715768"
+              href="https://wa.me/447980715768"
               target="_blank"
               rel="noopener noreferrer"
             >
