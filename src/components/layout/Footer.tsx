@@ -5,7 +5,7 @@ import footerImage from "../../assets/images/footer_image.png"
 const Footer: React.FC = () => {
     return (
         <footer className="footer">
-            <img src={footerImage} alt="Jack" className="home-image" loading="lazy" />
+            <img src={footerImage} alt="Jack" className="home-image" loading="lazy" />s
             <div className="fade-overlay-footer"></div>
             <div className="footer-content">
                 <div className="footer-left">
@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="footer-right">
                     <span>
-                        Powered by <a href="https://hajdicdesigns.co.uk/" target="_blank" rel="noopener noreferrer">Hajdic designs</a>
+                        Powered by <a href="mailto:connect@hajdicdesigns.co.uk" target="_blank" rel="noopener noreferrer">Hajdic designs</a>
                     </span>
                 </div>
             </div>
