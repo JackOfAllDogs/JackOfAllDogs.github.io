@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="footer-right">
                     <span>
-                        Powered by <a href="https://github.com/mariahajdic" target="_blank" rel="noopener noreferrer">Hajdic designs</a>
+                        Powered by <a href="https://hajdicdesigns.co.uk/" target="_blank" rel="noopener noreferrer">Hajdic designs</a>
                     </span>
                 </div>
             </div>
