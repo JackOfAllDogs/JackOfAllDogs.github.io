@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react'
 import Button from "@mui/material/Button"
 import Menu from "@mui/material/Menu"
 import MenuItem from "@mui/material/MenuItem"
-import instagramLogo from "../../assets/logos/logo_instagram.svg"
+import instagramLogo from "../../assets/logos/logo_instagram.png"
 import facebookLogo from "../../assets/logos/logo_facebook.png"
-import whatsappLogo from "../../assets/logos/logo_whatsapp.svg"
-import burgerIcon from "../../assets/logos/burger_menu.svg"
+import whatsappLogo from "../../assets/logos/logo_whatsapp.png"
+import burgerIcon from "../../assets/logos/burger_menu.png"
 import "../../styles/Header.css"
 
 const Header: React.FC = () => {
