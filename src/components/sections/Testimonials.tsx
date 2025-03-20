@@ -1,3 +1,4 @@
+import { useState } from "react"
 import { Swiper, SwiperSlide } from "swiper/react"
 import { EffectCoverflow, Navigation, Autoplay } from "swiper/modules"
 import "swiper/css"
@@ -11,18 +12,17 @@ const Testimonials = () => {
     <section className="testimonials">
       <h2 className="section-title">Words from Our Pack</h2>
       <Swiper
-        // cssMode={true}
         loop={true}
         speed={3000}
         autoplay={{
           delay: 3000,
-          disableOnInteraction: false,
+          disableOnInteraction: true,
         }}
         effect="coverflow"
         grabCursor={true}
         centeredSlides={true}
         slidesPerView="auto"
-        spaceBetween={10} // Overlaps slides
+        spaceBetween={10}
         coverflowEffect={{
           rotate: 0,
           stretch: 80,

@@ -5,6 +5,7 @@ import About from "./components/sections/About"
 import Testimonials from "./components/sections/Testimonials"
 import JoinThePack from "./components/sections/JoinThePack.tsx"
 import Footer from "./components/layout/Footer"
+import "./styles/Global.css"
 
 const App = () => {
     const [headerHeight, setHeaderHeight] = useState(0)

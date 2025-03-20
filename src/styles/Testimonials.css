@@ -10,7 +10,7 @@
 
 .testimonials-slider {
     width: 90%;
-    padding-bottom: 40px;
+    padding-bottom: 1rem;
 }
 
 .testimonial-slide {
@@ -58,7 +58,7 @@
 
 .swiper-button-next,
 .swiper-button-prev {
-    color: black !important;
+    color: #f4f4f4 !important;
 }
 
 .swiper-pagination-bullet {

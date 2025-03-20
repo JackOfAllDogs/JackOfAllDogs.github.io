@@ -14,7 +14,7 @@ const JoinThePack = () => {
 
             <div className="contact-form">
                 <h2>Get in Touch</h2>
-                <form action="https://formsubmit.co/jack@jackofalldogs.co.uk" method="POST">
+                <form action="https://contact-form.jackofalldogs.workers.dev/" method="POST">
                     <input type="text" name="dog_name" placeholder="Dog's Name" required />
                     <input type="text" name="owner_name" placeholder="Your Name" required />
                     <input type="email" name="email" placeholder="Your Email" required />

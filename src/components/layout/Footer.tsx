@@ -1,11 +1,11 @@
 import React from "react"
 import "../../styles/Footer.css"
-import footerImage from "../../assets/images/footer_image.png"
+import footerImage from "../../assets/images/footer_image.webp"
 
 const Footer: React.FC = () => {
     return (
         <footer className="footer">
-            <img src={footerImage} alt="Jack" className="home-image" loading="lazy" />
+            <img src={footerImage} alt="Coldfall snow" className="home-image" loading="lazy" />
             <div className="fade-overlay-footer"></div>
             <div className="footer-content">
                 <div className="footer-left">

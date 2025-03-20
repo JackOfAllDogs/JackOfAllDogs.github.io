@@ -1,5 +1,5 @@
 import "../../styles/Home.css"
-import jackImage from "../../assets/images/jack.png"
+import jackImage from "../../assets/images/jack.webp"
 
 const Home = () => {
   return (
