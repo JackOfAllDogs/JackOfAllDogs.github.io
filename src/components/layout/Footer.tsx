@@ -13,7 +13,7 @@ const Footer: React.FC = () => {
                 </div>
                 <div className="footer-centre">
                     <span>
-                        Photos by <a href="https://www.instagram.com/masha__maxwell/" target="_blank" rel="noopener noreferrer">Masha Maxwell</a>
+                        Photos by <a href="https://mashamaxwell.co.uk/" target="_blank" rel="noopener noreferrer">Masha Maxwell</a>
                     </span>
                 </div>
                 <div className="footer-right">

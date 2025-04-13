@@ -29,6 +29,7 @@
     height: 35rem;
     object-fit: cover;
     border-radius: 10px;
+    transition: object-position 0.5s ease;
 }
 
 .testimonial-overlay {

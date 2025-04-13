@@ -71,8 +71,8 @@
 }
 
 .social-links img {
-    width: 1.8rem;
-    height: 1.8rem;
+    width: 1.5rem;
+    height: 1.5rem;
     transition: transform 0.3s ease, filter 0.3 ease;
     filter: invert(19%) brightness(35%) contrast(75%);
 }
@@ -104,8 +104,8 @@
     }
 
     .social-links img {
-        width: 24px;
-        height: 24px;
+        width: 1.5rem;
+        height: 1.5rem;
     }
 }
 

@@ -39,7 +39,8 @@ const Testimonials = () => {
       >
         {testimonialsData.map((testimonial, index) => (
           <SwiperSlide key={index} className="testimonial-slide">
-            <img src={testimonial.img} alt={testimonial.name} className="testimonial-img" loading="lazy" />
+            <img src={testimonial.img} alt={testimonial.name} className="testimonial-img"
+              loading="lazy" style={{ objectPosition: testimonial.position || "center" }} />
             <div className="testimonial-overlay">
               <p className="testimonial-text">"{testimonial.text}"</p>
               <span className="testimonial-author">- {testimonial.name}</span>
