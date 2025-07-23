@@ -12,10 +12,12 @@
   },
   {
     "name": "Wally",
+    "text": "I am Wally",
     "img": "/testimonials/wally.webp"
   },
   {
-    "name": "Otis",
+    "name": "Ali and Sophie, Otis' parents",
+    "text": "Jack is reliable, genuinely loves dogs, and has been a total game-changer for our routine. If you’re looking for someone who treats your dog like their own, Jack is your man. Highly recommend!",
     "img": "/testimonials/otis.webp"
   },
   {
