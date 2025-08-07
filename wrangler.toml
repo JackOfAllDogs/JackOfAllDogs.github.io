@@ -9,8 +9,8 @@ command = "npm run build"
 bucket = "./dist"
 
 [routes]
-"jackofalldogs.co.uk/*"
-"www.jackofalldogs.co.uk/*"
+route1 = "jackofalldogs.co.uk/*"
+route2 = "www.jackofalldogs.co.uk/*"
 
 [custom_domains]
 "jackofalldogs.com" = { override_existing_dns_record = true }
