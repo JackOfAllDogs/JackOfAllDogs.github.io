@@ -13,5 +13,5 @@ bucket = "./dist"
 "www.jackofalldogs.co.uk/*"
 
 [custom_domains]
-"jackofalldogs.com"
-"www.jackofalldogs.com"
+"jackofalldogs.com" = { override_existing_dns_record = true }
+"www.jackofalldogs.com" = { override_existing_dns_record = true }
