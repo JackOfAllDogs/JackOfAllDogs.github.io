@@ -7,3 +7,11 @@ command = "npm run build"
 
 [site]
 bucket = "./dist"
+
+[routes]
+"jackofalldogs.co.uk/*"
+"www.jackofalldogs.co.uk/*"
+
+[custom_domains]
+"jackofalldogs.com"
+"www.jackofalldogs.com"
