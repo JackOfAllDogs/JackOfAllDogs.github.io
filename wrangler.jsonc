@@ -1,6 +1,0 @@
-{
-    "name": "jackofalldogs",
-    "compatibility_date": "2025-08-07",
-    // "main": "src/index.ts"
-    "main": "src/main.tsx"
-}

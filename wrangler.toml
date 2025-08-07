@@ -1,0 +1,9 @@
+name = "jackofalldogs"
+main = "worker/index.js"
+compatibility_date = "2025-08-07"
+
+[build]
+command = "npm run build"
+
+[site]
+bucket = "./dist"
